@@ -1,20 +1,8 @@
-/*-----------------------------------------------------------------------
-    PROJECT NAME    : flight-search-api
-    PACKAGE NAME    : com.amadeus.flightsearchapi.controller
-    FILE            : FlightController.java
-    AUTHOR          : Mehmet Akif Tanisik
-    EMAIL           : mehmetakif.tanisik@solmaz.com
-    COMPANY         : SOLMAZ GUMRUK MUSAVIRLIGI A.S.
-    
-    ABOUT CLASS     : 
-
------------------------------------------------------------------------*/
 
 package com.amadeus.flightsearchapi.controller;
 
 import com.amadeus.flightsearchapi.dto.request.flight.FlightRequest;
 import com.amadeus.flightsearchapi.dto.response.ErrorResponse;
-import com.amadeus.flightsearchapi.dto.response.airport.AirportResponse;
 import com.amadeus.flightsearchapi.dto.response.flight.FlightResponse;
 import com.amadeus.flightsearchapi.service.FlightService;
 import io.swagger.v3.oas.annotations.Operation;

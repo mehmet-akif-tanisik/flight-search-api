@@ -1,14 +1,4 @@
-/*-----------------------------------------------------------------------
-    PROJECT NAME    : heyworld-integration
-    PACKAGE NAME    : com.solmaz.heyworldintegration.validation
-    FILE            : NotEmptyLocalDateTime.java
-    AUTHOR          : Mehmet Akif Tanisik
-    EMAIL           : mehmetakif.tanisik@solmaz.com
-    COMPANY         : SOLMAZ GUMRUK MUSAVIRLIGI A.S.
-    
-    ABOUT ANNOTATION: 
 
------------------------------------------------------------------------*/
 package com.amadeus.flightsearchapi.validation;
 
 

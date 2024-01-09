@@ -1,14 +1,4 @@
-/*-----------------------------------------------------------------------
-    PROJECT NAME    : cia-salesforceintegration
-    PACKAGE NAME    : com.solmaz.ciasalesforceintegration.util
-    FILE            : ValidTCKNAndTaxNo.java
-    AUTHOR          : Mehmet Akif Tanisik
-    EMAIL           : mehmetakif.tanisik@solmaz.com
-    COMPANY         : SOLMAZ GUMRUK MUSAVIRLIGI A.S.
-    
-    ABOUT ANNOTATION: 
 
------------------------------------------------------------------------*/
 package com.amadeus.flightsearchapi.validation;
 
 

@@ -1,14 +1,4 @@
-/*-----------------------------------------------------------------------
-    PROJECT NAME    : flight-search-api
-    PACKAGE NAME    : com.amadeus.flightsearchapi.dto.request.airport
-    FILE            : AirportRequest.java
-    AUTHOR          : Mehmet Akif Tanisik
-    EMAIL           : mehmetakif.tanisik@solmaz.com
-    COMPANY         : SOLMAZ GUMRUK MUSAVIRLIGI A.S.
-    
-    ABOUT RECORD    : 
 
------------------------------------------------------------------------*/
 package com.amadeus.flightsearchapi.dto.request.airport;
 
 import io.swagger.v3.oas.annotations.media.Schema;

@@ -1,14 +1,4 @@
-/*-----------------------------------------------------------------------
-    PROJECT NAME    : cia-salesforceintegration
-    PACKAGE NAME    : com.solmaz.ciasalesforceintegration.configuration
-    FILE            : SecurityConfig.java
-    AUTHOR          : Mehmet Akif Tanisik
-    EMAIL           : mehmetakif.tanisik@solmaz.com
-    COMPANY         : SOLMAZ GUMRUK MUSAVIRLIGI A.S.
-    
-    ABOUT CLASS     : 
 
------------------------------------------------------------------------*/
 
 package com.amadeus.flightsearchapi.config;
 
