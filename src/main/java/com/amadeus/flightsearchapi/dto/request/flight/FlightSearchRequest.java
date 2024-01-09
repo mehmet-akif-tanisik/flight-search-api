@@ -12,6 +12,7 @@
 package com.amadeus.flightsearchapi.dto.request.flight;
 
 import com.amadeus.flightsearchapi.validation.NotNullDate;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,7 +25,9 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Validated
 public class FlightSearchRequest {
+    @Schema(example = "Istanbul")
     private String departureAirport;
+    @Schema(example = "New York")
     private String arrivalAirport;
     @NotNullDate
     private LocalDateTime departureDateTime;

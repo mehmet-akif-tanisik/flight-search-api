@@ -15,6 +15,7 @@ import com.amadeus.flightsearchapi.validation.NotNullDate;
 import com.amadeus.flightsearchapi.validation.ValidPositiveBigDecimalValue;
 import com.amadeus.flightsearchapi.validation.ValidateDepartureAndArrivalAirports;
 import com.amadeus.flightsearchapi.validation.ValidateDepartureAndReturnDate;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -32,13 +33,16 @@ import java.time.LocalDateTime;
 @ValidateDepartureAndArrivalAirports
 public class FlightRequest{
     @NotNull
+    @Schema(example = "1")
     private Integer departureAirportId;
     @NotNull
+    @Schema(example = "2")
     private Integer arrivalAirportId;
     @NotNullDate
     private LocalDateTime departureDateTime;
     private LocalDateTime returnDateTime;
     @ValidPositiveBigDecimalValue
+    @Schema(example = "200")
     private BigDecimal price;
 
 }

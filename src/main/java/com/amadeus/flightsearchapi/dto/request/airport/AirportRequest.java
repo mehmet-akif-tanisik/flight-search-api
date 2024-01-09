@@ -11,6 +11,7 @@
 -----------------------------------------------------------------------*/
 package com.amadeus.flightsearchapi.dto.request.airport;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,5 +24,6 @@ import org.springframework.validation.annotation.Validated;
 @Validated
 public class AirportRequest {
     @Size(max = 50)
+    @Schema(example = "Istanbul")
     private String city;
 }
